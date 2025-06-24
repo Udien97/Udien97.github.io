@@ -1,0 +1,105 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: lightblue
+}
+.navbar .navbar-logo .tec {
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    gap: 40px;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+}
+.navbar  ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease;
+}
+.navbar ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 5px;
+    background-color: lightblue;
+    transition: 0,3 ease;
+}
+.navbar ul li a:hover{
+    color: lightblue;
+}
+.contact-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-container h2 {
+  text-align: center;
+  color: navy;
+}
+.contact-container p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.contact-form button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #005f99;
+}
+footer {
+  background-color: navy;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

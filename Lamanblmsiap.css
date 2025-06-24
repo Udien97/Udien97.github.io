@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: lightblue
+}
+.navbar .navbar-logo .tec {
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    gap: 40px;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+}
+.navbar  ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease;
+}
+.navbar ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 5px;
+    background-color: lightblue;
+    transition: 0,3 ease;
+}
+.navbar ul li a:hover{
+    color: lightblue;
+}
+.home Opps{
+    padding: 5rem 7%;
+    max-width: 100rem;
+}
+.isi h1{
+    margin: 1rem;
+    font-size: 50px;
+    color: white;
+}
+.isi p{
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    margin: 1rem;
+}
+.home .isi {
+    margin-left: 40px;
+}
+footer {
+  background-color: navy;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  background-color: transparent; 
+  color: black;              
+  text-align: center;
+  padding: 20px;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;   
+  align-items: center;         
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+  gap: 30px;                  
+  text-align: left;
+  flex-wrap: wrap;            
+}
+
+.home img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
